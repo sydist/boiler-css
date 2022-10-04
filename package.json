@@ -1,0 +1,18 @@
+{
+  "name": "reset-css",
+  "version": "1.0.0",
+  "description": "Tiny CSS3 boilerplate for normalizing user-agent styles",
+  "author": "Sydist",
+  "license": "MIT",
+  
+  "homepage": "https://github.com/sydist/reset-css#readme",
+  "repository": 
+  {
+    "type": "git",
+    "url": "https://github.com/sydist/reset-css.git"
+  },
+  "bugs": 
+  {
+    "url": "https://github.com/sydist/reset-css/issues"
+  }
+}
