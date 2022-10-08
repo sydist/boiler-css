@@ -1,0 +1,37 @@
+.bbox-sizing
+{
+    box-sizing: border-box;
+}
+
+img,
+picture
+{
+    display: block;
+    max-width: 100%;
+}
+
+pre,
+input, 
+select,
+button,
+textarea
+{
+    font: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    text-rendering: inherit;
+}
+
+body,
+dl, ol, ul, dd,
+pre, textarea, button, 
+p, h1, h2, h3, h4, h5, h6,
+figure, blockquote, fieldset, legend
+{
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
