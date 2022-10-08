@@ -4,15 +4,20 @@
   "description": "Tiny CSS3 boilerplate for normalizing user-agent styles",
   "author": "Sydist",
   "license": "MIT",
-  
   "homepage": "https://github.com/sydist/reset-css#readme",
-  "repository": 
-  {
+  "repository": {
     "type": "git",
     "url": "https://github.com/sydist/reset-css.git"
   },
-  "bugs": 
-  {
+  "bugs": {
     "url": "https://github.com/sydist/reset-css/issues"
+  },
+  "devDependencies": {
+    "cssnano": "^5.1.13",
+    "postcss": "^8.4.17",
+    "postcss-cli": "^10.0.0"
+  },
+  "scripts": {
+    "build": "mkdir dist && npx postcss .\\src\\reset.css > .\\dist\\reset.min.css"
   }
 }
