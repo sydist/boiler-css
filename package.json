@@ -1,7 +1,7 @@
 {
   "name": "reset-css",
   "version": "1.0.0",
-  "description": "Tiny CSS3 boilerplate for normalizing user-agent styles",
+  "description": "CSS module for common boilerplate.",
   "author": "Sydist",
   "license": "MIT",
   "homepage": "https://github.com/sydist/reset-css#readme",
