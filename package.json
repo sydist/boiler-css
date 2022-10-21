@@ -1,16 +1,16 @@
 {
-  "name": "reset-css",
+  "name": "boiler-css",
   "version": "1.0.0",
   "description": "CSS module for common boilerplate.",
   "author": "Sydist",
   "license": "MIT",
-  "homepage": "https://github.com/sydist/reset-css#readme",
+  "homepage": "https://github.com/sydist/boiler-css#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sydist/reset-css.git"
+    "url": "https://github.com/sydist/boiler-css.git"
   },
   "bugs": {
-    "url": "https://github.com/sydist/reset-css/issues"
+    "url": "https://github.com/sydist/boiler-css/issues"
   },
   "devDependencies": {
     "cssnano": "^5.1.13",
@@ -18,6 +18,7 @@
     "postcss-cli": "^10.0.0"
   },
   "scripts": {
-    "build": "mkdir dist && npx postcss .\\src\\reset.css > .\\dist\\reset.min.css"
+    "build-win": "mkdir dist && npx postcss .\\src\\boiler.css > .\\dist\\boiler.min.css",
+    "build-unix": "mkdir dist && npx postcss ./src/boiler.css > ./dist/boiler.min.css"
   }
 }
